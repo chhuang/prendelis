@@ -1,17 +1,23 @@
 ---
 layout: default
 title: Home
-product-src: /assets/src/img/products/
+product-src: /assets/dist/img/products
 ---
 
-<h1>Hello!</h1>
+<div class="container">
+  {% for product in site.products %}
+  <div class="product--item"> 
+    <figure>
+      <a href="{{ product.url }}">
+        <img src="{{ site.baseurl }}{{ page.product-src }}/363x363/{{ product.id }}.jpg" alt="{{ product.title }}">
+      </a>
+    </figure>
 
-<ul>
-  {% for product in site.data.products %}
-  <li>
-    <h3>{{ product.name }}</h3>
-    <p><img src="{{ site.baseurl }}{{ page.product-src }}{{ product.pid }}/collage.jpg" alt="{{ product.name }}"></p>
-    <p>{{ product.description }}</p>
-  </li>
+    <figcaption>
+      <a href="{{ product.url }}" class="product--item__title">{{ product.title }}</a>
+      <p>{{ product.price }}</p>
+    </figcaption>
+  </div>
   {% endfor %}
-</ul>
+</div>
+

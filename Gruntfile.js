@@ -2,6 +2,7 @@ module.exports = function(grunt) {
   
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
     less: {
       dev: {
         options: {
@@ -9,7 +10,7 @@ module.exports = function(grunt) {
           dumpLineNumbers: true
         },
         files: {
-          'assets/dist/css/core.css': 'assets/src/css/core.less',
+          'assets/dist/css/core.css': 'assets/src/css/core.less'
         }
       }
     },
@@ -17,8 +18,19 @@ module.exports = function(grunt) {
     uglify: {
       dev: {
         files: {
-          'assets/dist/js/core.js': 'assets/src/js/core.js',
+          'assets/dist/js/core.js': 'assets/src/js/core.js'
         }
+      }
+    },
+
+    responsive_images: {
+      options: {
+        engine: 'im'
+      },
+      products: {
+        files: [
+          { expand:true, src: ['**/*.jpg'], cwd: 'assets/src/img/products/', dest: 'assets/dist/img/products/' }
+        ]
       }
     },
 
@@ -42,6 +54,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['less:dev']);
