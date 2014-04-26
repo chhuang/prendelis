@@ -1,10 +1,18 @@
 ---
 layout: default
 title: Home
+script: |
+  fb.set("I am now writing data into Firebase!");
 ---
 
 <h1>Hello!</h1>
 
-<script>
-  fb.set("I am now writing data into Firebase!");
-</script>
+<ul>
+  {% for product in site.data.products %}
+  <li>
+    <h3>{{ product.name }}</h3>
+    <p><img src="{{ product.src }}collage.jpg" alt="{{ product.name }}"></p>
+    <p>{{ product.description }}</p>
+  </li>
+  {% endfor %}
+</ul>
