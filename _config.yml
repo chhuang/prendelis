@@ -1,6 +1,2 @@
-destination:    dist   
 baseurl:        /prendelis/dist
 exclude:        [bower_components, node_modules]
-collections:
-  products:
-    output:     true
