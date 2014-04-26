@@ -1,0 +1,70 @@
+@import 'bootstrap-imports.less';
+
+body { background:#fafafa; }
+header { background:#4fcdc4; padding:12px 0; margin:0 0 30px; border-bottom:1px solid darken(#4fcdc4, 10%); 
+  a { color:#fff; font-family:'Nunito', 'sans-serif'; font-size:21px; font-weight:300; 
+    &:hover { color:#fff; text-decoration:none; }
+  }
+}
+.btn-lg { border-radius:3px; }
+
+.products--list {
+  .product--item { background:#fff; border:1px solid #ddd; overflow:hidden; border-radius:3px; float:left; margin-bottom:2%; margin-right:2%; width:32%; 
+
+    figure {}
+    figcaption { padding:12px; 
+      .product--item__title { font-family:'Open Sans', 'sans-serif'; }
+      .product--item__description { display:none; }
+    }
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) { width:32%; }
+    &:nth-child(3) { margin-right:0; }
+
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6),
+    &:nth-child(7) { width:23.5%; }
+    &:nth-child(7) { margin-right:0; }
+
+    &:nth-child(8),
+    &:nth-child(9),
+    &:nth-child(10) { width:32%; }
+    &:nth-child(10) { margin-right:0; }
+
+    &:nth-child(11),
+    &:nth-child(12) { width:49%; }
+    &:nth-child(13) { margin-right:0; }
+
+    &:nth-child(3n+14) { margin-right:0; }
+  }
+}
+
+.product--details {
+  .product--item { 
+    figure { background:#fff; border-radius:3px; border:1px solid #ddd; overflow:hidden; }
+  }
+  figure { margin-bottom:30px; }
+  figcaption { background:#fff; border:1px solid #ddd; border-radius:3px; padding:24px 18px;
+    .product--item__title { font-family:'Open Sans', 'sans-serif'; font-size:18px; margin:0; }
+    .product--item__price { font-family:'Open Sans', 'sans-serif'; }
+    .product--item__details { .list-unstyled; margin:24px 18px 18px; 
+      li { .clearfix; padding:6px 0;
+        span { .pull-left; color:#888; }
+        b { .pull-right; }
+        + li { border-top:1px solid #eee; }
+      }
+    }
+    
+    .product--item__btn { padding:0; margin-top:30px;
+      span { padding:12px; 
+        &:last-child { background:#D2322D; border-left:1px solid #BD1E19; }
+      }
+      &:hover { 
+        span:last-child { border-left:0; }
+      }
+    }
+  }
+  .img-thumbnail { border-radius:3px; }
+}

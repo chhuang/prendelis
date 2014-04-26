@@ -3,9 +3,73 @@ layout:       default
 id:           p-053
 title:        Bolso Bostanten 100% de Cuero
 price:        50000
-product-src:  /assets/dist/img/products
+product-src:  /assets/dist/img/products/p-053
+images:       9
+material:     Cuero de vaca
+largo:        27
+alto:         31
+ancho:        8.5
+color:        Café
 ---
 
-<div class="container">
-  053
-</div>
+<section class="product--details">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="product--item"> 
+          <figure>
+            <img src="{{ site.baseurl }}{{ page.product-src }}/main.jpg" alt="{{ page.title }}">
+          </figure>
+        </div>
+
+        <div class="row">
+          {% for i in (1..page.images) %}
+          <div class="col-sm-4">
+            <figure>
+              <img src="{{ site.baseurl }}{{ page.product-src }}/{{ i }}.jpg" alt="{{ page.title }}" class="img-thumbnail">
+            </figure>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <figcaption>
+          <h3 class="product--item__title">{{ page.title }}</h3>
+
+          <ul class="product--item__details">
+            <li>
+              <span>Material</span>
+              <b>{{ page.material }}</b>
+            </li>
+
+            <li>
+              <span>Color</span>
+              <b>{{ page.color }}</b>
+            </li>
+
+            <li>
+              <span>Largo</span>
+              <b>{{ page.largo }} cm</b>
+            </li>
+
+            <li>
+              <span>Alto</span>
+              <b>{{ page.alto }} cm</b>
+            </li>
+
+            <li>
+              <span>Ancho</span>
+              <b>{{ page.ancho }} cm</b>
+            </li>
+          </ul>
+
+          <a href="#" class="btn btn-danger btn-block btn-lg product--item__btn clearfix">
+            <span class="pull-left product--item__price">${{ page.price }}</span>
+            <span class="pull-right">Comprar</span>
+          </a>
+        </figcaption>
+      </div>
+    </div>
+  </div>
+</section>

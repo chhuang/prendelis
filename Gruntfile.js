@@ -10,7 +10,7 @@ module.exports = function(grunt) {
           dumpLineNumbers: true
         },
         files: {
-          'assets/dist/css/core.css': 'assets/src/css/core.less'
+          'assets/dist/css/core.css': 'assets/src/less/core.less'
         }
       }
     },
