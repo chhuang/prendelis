@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Home
-script: |
-  fb.set("I am now writing data into Firebase!");
+product-src: /assets/images/products/
 ---
 
 <h1>Hello!</h1>
@@ -11,7 +10,7 @@ script: |
   {% for product in site.data.products %}
   <li>
     <h3>{{ product.name }}</h3>
-    <p><img src="{{ site.baseurl }}{{ product.src }}collage.jpg" alt="{{ product.name }}"></p>
+    <p><img src="{{ site.baseurl }}{{ page.product-src }}{{ product.pid }}/collage.jpg" alt="{{ product.name }}"></p>
     <p>{{ product.description }}</p>
   </li>
   {% endfor %}

@@ -1,7 +1,7 @@
 - name: Bostanten
-  src: /assets/images/products/p-053/
+  pid: p-053
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, suscipit, earum, ducimus mollitia similique cum quos dolore nobis velit dolor quo eaque quisquam harum repudiandae voluptatibus temporibus magni tempore eos."
 
 - name: Latue Seed
-  src: /assets/images/products/p-052/
+  pid: p-052
   description: "Pariatur, suscipit, earum, ducimus mollitia similique cum quos dolore nobis velit dolor quo eaque quisquam harum repudiandae voluptatibus temporibus magni tempore eos."
