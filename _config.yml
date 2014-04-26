@@ -1,5 +1,6 @@
-baseurl: /prendelis
-exclude: [bower_components, node_modules]
+destination:    dist   
+baseurl:        /prendelis
+exclude:        [bower_components, node_modules]
 collections:
   products:
-    output: true
+    output:     true
