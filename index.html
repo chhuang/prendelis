@@ -10,13 +10,13 @@ product-src: /assets/dist/img/products
     <div class="product--item"> 
       <figure>
         <a href="{{ site.baseurl }}/p/{{ product.pid }}.html">
-          <img src="{{ site.baseurl }}{{ page.product-src }}/covers/{{ product.pid }}.jpg" alt="{{ product.title }}">
+          <img src="{{ site.baseurl }}{{ page.product-src }}/covers/{{ product.pid }}.jpg" alt="{{ product.title }}" />
         </a>
       </figure>
 
       <figcaption>
         <a href="{{ site.baseurl }}/p/{{ product.pid }}.html" class="product--item__title">{{ product.title }}</a>
-        <p>{{ product.price }}</p>
+        <span class="product--item__price">${{ product.price }}</span>
       </figcaption>
     </div>
     {% endfor %}

@@ -1,8 +1,18 @@
+- pid: p-036
+  title: Cartera Clioborn Vintage 100% de Cuero
+  description: Amplia y cómoda cartera Clioborn. Muy elegante, confeccionada en cuero genuino. En su exterior cuenta con aplicaciones de correas decorativas en cuero. Incluye dos asas para llevar de la mano, más una correa removible y ajustable para el hombro.
+  price: 62000
+
 - pid: p-053 
   title: Bolso Bostanten 100% de Cuero
   description: 
   price: 50000
 
+- pid: p-047
+  title: Elegante Clutch XM 100% de Cuero
+  description: 
+  price: 32000
+  
 - pid: p-052 
   title: Cartera de mano Latue Seed
   description: Cómoda y elegante cartera de mano estilo clutch. Especial para complementar tu look en ocasiones especiales en que sólo necesitas llevar tus artículos personales.
@@ -27,11 +37,6 @@
   title: Cartera Clutch con tachas
   description: Amplia cartera modelo sobre con aplicaciones de tachas que hacen de ella una delicada y femenina cartera. Ideal para tu look.
   price: 12000
-
-- pid: p-047
-  title: Elegante Clutch XM 100% de Cuero
-  description: 
-  price: 32000
 
 - pid: p-046
   title: Bolso Casual
@@ -82,11 +87,6 @@
   title: Cartera Binnitu
   description: Linda y cómoda cartera material cuero PU.  
   price: 24000
-
-- pid: p-036
-  title: Cartera Clioborn Vintage 100% de Cuero
-  description: Amplia y cómoda cartera Clioborn. Muy elegante, confeccionada en cuero genuino. En su exterior cuenta con aplicaciones de correas decorativas en cuero. Incluye dos asas para llevar de la mano, más una correa removible y ajustable para el hombro.
-  price: 62000
 
 - pid: p-035
   title: Cartera Hoolady
