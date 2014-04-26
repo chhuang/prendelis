@@ -8,13 +8,13 @@ product-src: /assets/dist/img/products
   {% for product in site.products %}
   <div class="product--item"> 
     <figure>
-      <a href="{{ product.url }}">
+      <a href="{{ site.baseurl }}{{ product.url }}">
         <img src="{{ site.baseurl }}{{ page.product-src }}/covers/{{ product.id }}.jpg" alt="{{ product.title }}">
       </a>
     </figure>
 
     <figcaption>
-      <a href="{{ product.url }}" class="product--item__title">{{ product.title }}</a>
+      <a href="{{ site.baseurl }}{{ product.url }}" class="product--item__title">{{ product.title }}</a>
       <p>{{ product.price }}</p>
     </figcaption>
   </div>
