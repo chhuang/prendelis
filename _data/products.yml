@@ -12,7 +12,12 @@
   title: Elegante Clutch XM 100% de Cuero
   description: 
   price: 32000
-  
+
+- pid: p-032
+  title: Bolso Sport DHH Rivet
+  description: Lindo y cómodo bolso tela canvas 100% de algodón. Flexible y muy práctico, ya que cuenta con una correa removible y ajustable para el hombro más dos asas con aplicación de cuero PU para llevarlo de la mano. Para extender su durabilidad tiene cuatro "patitas" en su base a modo de protección. En el exterior tiene dos bolsillos con remaches más uno con cierre y en el interior cuenta con bolsillo para el celular y documentos junto a un tercero con cierre.
+  price: 20000
+
 - pid: p-052 
   title: Cartera de mano Latue Seed
   description: Cómoda y elegante cartera de mano estilo clutch. Especial para complementar tu look en ocasiones especiales en que sólo necesitas llevar tus artículos personales.
@@ -101,11 +106,6 @@
 - pid: p-033
   title: Cartera Leshaer
   description: 
-  price: 20000
-
-- pid: p-032
-  title: Bolso Sport DHH Rivet
-  description: Lindo y cómodo bolso tela canvas 100% de algodón. Flexible y muy práctico, ya que cuenta con una correa removible y ajustable para el hombro más dos asas con aplicación de cuero PU para llevarlo de la mano. Para extender su durabilidad tiene cuatro "patitas" en su base a modo de protección. En el exterior tiene dos bolsillos con remaches más uno con cierre y en el interior cuenta con bolsillo para el celular y documentos junto a un tercero con cierre.
   price: 20000
 
 - pid: p-031
