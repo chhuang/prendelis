@@ -1,17 +1,17 @@
 ---
 layout:       default
-id:           p-050
-title:        Cartera Sobre Cattura
-price:        23000
-product-src:  /assets/dist/img/products/p-050
-images:       12
+id:           p-033
+title:        Cartera Leshaer
+price:        20000
+product-src:  /assets/dist/img/products/p-033
+images:       15
 material:     PU
-largo:        28
-alto:         16
-ancho:        5
-peso:         0.8
-color:        Blanco, negro
-description:  Elegante cartera tipo clutch con delicados detalles. Muy cómoda para llevar tus artículos pequeños y necesarios para toda mujer.
+largo:        40
+alto:         27
+ancho:        15
+asas:         19
+peso:         0.65
+color:        Negro, crema
 ---
 
 <section class="product--details">
@@ -38,7 +38,6 @@ description:  Elegante cartera tipo clutch con delicados detalles. Muy cómoda p
       <div class="col-sm-4">
         <figcaption>
           <h3 class="product--item__title">{{ page.title }}</h3>
-          <div class="product--item__description">{{ page.description }}</div>
           
           <ul class="product--item__details">
             <li>
@@ -50,10 +49,10 @@ description:  Elegante cartera tipo clutch con delicados detalles. Muy cómoda p
               <span>Color</span>
               <b>{{ page.color }}</b>
             </li>
-            
+
             <li>
               <span>Peso</span>
-              <b>{{ page.peso }}</b>
+              <b>{{ page.peso }} kg</b>
             </li>
 
             <li>
@@ -71,6 +70,10 @@ description:  Elegante cartera tipo clutch con delicados detalles. Muy cómoda p
               <b>{{ page.ancho }} cm</b>
             </li>
 
+            <li>
+              <span>Asas</span>
+              <b>{{ page.asas }} cm</b>
+            </li>
           </ul>
 
           <a href="#" class="btn btn-danger btn-block btn-lg product--item__btn clearfix">
