@@ -43,16 +43,41 @@
   description: 
   price: 50000
 
+- pid: p-039
+  title: Bolso Feger
+  description: 
+  price: 24000
+
 - pid: p-050 
   title: Cartera Sobre Cattura
   description: Elegante cartera tipo clutch con delicados detalles. Muy cómoda para llevar tus artículos pequeños y necesarios para toda mujer.
   price: 23000
 
+- pid: p-037
+  title: Cartera Binnitu
+  description: Linda y cómoda cartera material cuero PU.  
+  price: 24000
 
+- pid: p-044
+  title: Clutch Rinka Doll Multicolor
+  description: 
+  price: 9900
 
+- pid: p-042
+  title: Cartera La Festin
+  description: 
+  price: 42000
 
-
-
+- pid: p-051
+  title: Cartera estilo Cambridge Satchel
+  description: Línda y cómoda cartera Moborn. Muy cómoda para llevar de la mano u hombros ya que cuenta con una correa removible.
+  price: 9000
+  
+# OUT OF STOCK
+# - pid: p-035
+#   title: Cartera Hoolady
+#   description: Elegante cartera Hoolady. Especial para complementar tu look casual y/o formal. Amplia y cómoda ya que cuenta con dos asas con aplicación de cadenas para llevar de la mano, más una correa removible y ajustable para el hombro.   En su interior incluye bolsillos para guardar de manera segura tus documentos y artículos más pequeños y así acceder más fácil y rápido a ellos.
+#   price: 24000
 
 
 - pid: p-052 
@@ -60,10 +85,7 @@
   description: Cómoda y elegante cartera de mano estilo clutch. Especial para complementar tu look en ocasiones especiales en que sólo necesitas llevar tus artículos personales.
   price: 17000
 
-- pid: p-051
-  title: Cartera estilo Cambridge Satchel
-  description: Línda y cómoda cartera Moborn. Muy cómoda para llevar de la mano u hombros ya que cuenta con una correa removible.
-  price: 36000
+
 
 - pid: p-049
   title: Cartera Clutch Sobre
@@ -80,42 +102,23 @@
   description: Cómodo bolso para hombres. Material tela canvas 100% de algodón. Flexible y muy práctico.
   price: 17000
 
-- pid: p-044
-  title: Clutch Multicolor
-  description: 
-  price: 9900
-
 - pid: p-043
   title: Cartera Clutch Sobre
   description: Elegante y delicada cartera tipo clutch con aplicación de tachas en sus bordes.
   price: 40000
 
-- pid: p-042
-  title: Cartera 100% de cuero
-  description: 
-  price: 42000
+
 
 - pid: p-041
   title: Bolso masculino
   description: 
   price: 24000
 
-- pid: p-039
-  title: Bolso Feger para hombres
-  description: 
-  price: 24000
+
 
 - pid: p-038
   title: Cartera Oppo Bi-Color
   description: Linda y cómoda cartera cuero PU. Muy práctica ya que cuenta con una correa removible y ajustable para el hombro más dos asas para llevarlo de la mano. Para extender su durabilidad tiene cuatro "patitas" en su base a modo de protección. En el interior cuenta con bolsillo para el celular y documentos junto a un tercero con cierre.
   price: 35000
 
-- pid: p-037
-  title: Cartera Binnitu
-  description: Linda y cómoda cartera material cuero PU.  
-  price: 24000
 
-- pid: p-035
-  title: Cartera Hoolady
-  description: Elegante cartera Hoolady. Especial para complementar tu look casual y/o formal. Amplia y cómoda ya que cuenta con dos asas con aplicación de cadenas para llevar de la mano, más una correa removible y ajustable para el hombro.   En su interior incluye bolsillos para guardar de manera segura tus documentos y artículos más pequeños y así acceder más fácil y rápido a ellos.
-  price: 24000
