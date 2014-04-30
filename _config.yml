@@ -1,2 +1,2 @@
-baseurl:        /prendelis
+baseurl:        
 exclude:        [bower_components, node_modules]
