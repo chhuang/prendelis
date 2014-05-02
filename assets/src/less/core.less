@@ -71,8 +71,13 @@ header { background:#4fcdc4; padding:12px 0; margin:0 0 30px; border-bottom:1px 
   }
   figure { margin-bottom:30px; }
   figcaption { background:#fff; border:1px solid #ddd; border-radius:3px; padding:24px 18px;
-    .product--item__title { font-family:'Open Sans', 'sans-serif'; font-size:18px; margin:0; }
-    .product--item__price { font-family:'Open Sans', 'sans-serif'; }
+    .product--item__title { font-family:'Open Sans', 'sans-serif'; font-size:18px; margin:0; text-align:center; }
+    .product--item__price { font-family:'Open Sans', 'sans-serif'; margin:18px; font-size:24px; text-align:center; position:relative; 
+      &:before,
+      &:after { content:''; display:block; width:100px; border-bottom:1px solid #eee; top:18px; position:absolute; top:18px; }
+      &:after { left:-18px; }
+      &:before { right:-18px; }
+    }
     .product--item__description { font-size:13px; margin-top:12px; line-height:1.6; color:#888; }
     .product--item__details { .list-unstyled; margin:24px 18px 18px; font-size:13px;
       li { .clearfix; padding:6px 0;
@@ -82,16 +87,23 @@ header { background:#4fcdc4; padding:12px 0; margin:0 0 30px; border-bottom:1px 
       }
     }
     
-    .product--item__btn { padding:0; margin-top:30px;
-      span { padding:12px; 
-        &:last-child { background:#D2322D; border-left:1px solid #BD1E19; }
+    .product--item__btn { color:@brand-pink; padding:12px; margin-top:30px; border:1px solid @brand-pink; border-radius:3px; background:#fff;
+      .flaticon-tag1 { position:relative; top:1px; left:-12px;
+        &:before { font-size:24px; line-height:0; }
       }
-      &:hover { 
-        span:last-child { border-left:0; }
-      }
+      &:hover { border-color:darken(@brand-pink, 20%); color:darken(@brand-pink, 20%); }
     }
   }
   .img-thumbnail { border-radius:3px; }
 }
 
 .disqus { margin-top:30px; background:#fff; padding:12px 12px 0; border:1px solid #ddd; border-radius:3px; }
+
+.bank-accounts { margin-top:30px; 
+  h3 { margin:0 0 6px; font-size:18px; }
+  ul { .list-unstyled; margin-bottom:24px; }
+  li { padding:6px 0;
+    b { .pull-right; }
+    + li { border-top:1px solid #eee; }
+  }
+}

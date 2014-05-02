@@ -1,7 +1,8 @@
 ---
 layout:   default
 ---
-<div id="fb-root"></div>
+
+{% include modal_payment.html %}
 
 <section class="product--details">
   <div class="container">
@@ -28,6 +29,10 @@ layout:   default
         <figcaption>
           <h3 class="product--item__title">{{ page.title }}</h3>
           
+          <div class="product--item__price">
+            ${{ page.price }}
+          </div>
+
           {% unless page.description == "" or page.description == nil %}
           <div class="product--item__description">
             {{ page.description }}  
@@ -86,10 +91,9 @@ layout:   default
             {% endunless %}
           </ul>
 
-          <a href="#" class="btn btn-danger btn-block btn-lg product--item__btn clearfix">
-            <span class="pull-left product--item__price">${{ page.price }}</span>
-            <span class="pull-right">Comprar</span>
-          </a>
+          <button class="btn btn-block btn-lg product--item__btn" data-toggle="modal" data-target="#pago">
+            <span class="flaticon-tag1"></span>Comprar
+          </button>
         </figcaption>
         
         <div class="disqus">
