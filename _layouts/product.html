@@ -90,6 +90,12 @@ layout:   default
             </li>
             {% endunless %}
           </ul>
+              
+          {% if page.price >= 20000 %}
+            <div class="alert alert-success text-center" data-toggle="tooltip" title="Envío gratis para todo Chile" style="margin-bottom:0;">
+              Este producto no tiene costo de envío!
+            </div>
+          {% endif %}
 
           <button class="btn btn-block btn-lg product--item__btn" data-toggle="modal" data-target="#pago">
             <span class="flaticon-tag1"></span>Comprar
