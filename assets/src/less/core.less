@@ -1,11 +1,20 @@
 @import 'bootstrap-imports.less';
 
 body { background:#effffe; }
-header { background:#4fcdc4; padding:12px 0; margin:0 0 30px; border-bottom:1px solid darken(#4fcdc4, 10%); 
-  a { color:#fff; font-family:'Nunito', 'sans-serif'; font-size:21px; font-weight:300; 
+header { background:#4fcdc4; padding:18px 0 12px; margin:0 0 30px; border-bottom:1px solid darken(#4fcdc4, 10%); 
+  a { color:#fff;  
     &:hover { color:#fff; text-decoration:none; }
   }
+
+  ul { .list-inline; float:right; margin:0; text-transform:uppercase; font-size:12px; margin-top:8px; 
+    li { margin-left:30px; 
+      a { border-bottom:2px solid rgba(0, 0, 0, 0); padding-bottom:6px; display:inline-block;
+        &:hover { border-color:#fff; }
+      }
+    }
+  }
 }
+.logo { font-family:'Nunito', 'sans-serif'; font-size:21px; font-weight:300; }
 .btn-lg { border-radius:3px; }
 
 .products--list {

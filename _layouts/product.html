@@ -7,24 +7,6 @@ layout:   default
 <section class="product--details">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
-        <div class="product--item"> 
-          <figure>
-            <img src="{{ site.baseurl }}{{ page.product-src }}/main.jpg" alt="{{ page.title }}">
-          </figure>
-        </div>
-
-        <div class="row">
-          {% for i in (1..page.images) %}
-          <div class="col-sm-4">
-            <figure>
-              <img src="{{ site.baseurl }}{{ page.product-src }}/{{ i }}.jpg" alt="{{ page.title }}" class="img-thumbnail">
-            </figure>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-
       <div class="col-sm-4">
         <figcaption>
           <h3 class="product--item__title">{{ page.title }}</h3>
@@ -119,6 +101,24 @@ layout:   default
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+
+      <div class="col-sm-8">
+        <div class="product--item"> 
+          <figure>
+            <img src="{{ site.baseurl }}{{ page.product-src }}/main.jpg" alt="{{ page.title }}" class="img-responsive">
+          </figure>
+        </div>
+
+        <div class="row">
+          {% for i in (1..page.images) %}
+          <div class="col-sm-4">
+            <figure>
+              <img src="{{ site.baseurl }}{{ page.product-src }}/{{ i }}.jpg" alt="{{ page.title }}" class="img-thumbnail">
+            </figure>
+          </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
