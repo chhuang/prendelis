@@ -83,46 +83,32 @@
   description: Cómoda y elegante cartera de mano estilo clutch. Especial para complementar tu look en ocasiones especiales en que sólo necesitas llevar tus artículos personales.
   price: 17000
 
-# OUT OF STOCK
-# - pid: p-035
-#   title: Cartera Hoolady
-#   description: Elegante cartera Hoolady. Especial para complementar tu look casual y/o formal. Amplia y cómoda ya que cuenta con dos asas con aplicación de cadenas para llevar de la mano, más una correa removible y ajustable para el hombro.   En su interior incluye bolsillos para guardar de manera segura tus documentos y artículos más pequeños y así acceder más fácil y rápido a ellos.
-#   price: 24000
+- pid: p-043
+  title: Cartera Clutch Sobre
+  description: Elegante y delicada cartera tipo clutch con aplicación de tachas en sus bordes.
+  price: 12000
 
+- pid: p-048
+  title: Cartera con tachas
+  description: Amplia cartera modelo sobre con aplicaciones de tachas que hacen de ella una delicada y femenina cartera. Ideal para tu look.
+  price: 12000
 
+- pid: p-049
+  title: Cartera Clutch Sobre
+  description: 
+  price: 7500
 
+- pid: p-035
+  title: Cartera Hoolady
+  description: Elegante cartera Hoolady. Especial para complementar tu look casual y/o formal. Amplia y cómoda ya que cuenta con dos asas con aplicación de cadenas para llevar de la mano, más una correa removible y ajustable para el hombro.   En su interior incluye bolsillos para guardar de manera segura tus documentos y artículos más pequeños y así acceder más fácil y rápido a ellos.
+  price: 24000
 
+- pid: p-041
+  title: Bolso Faunce 
+  description: 
+  price: 24000
 
-
-# - pid: p-049
-#   title: Cartera Clutch Sobre
-#   description: 
-#   price: 40000
-
-# - pid: p-048
-#   title: Cartera Clutch con tachas
-#   description: Amplia cartera modelo sobre con aplicaciones de tachas que hacen de ella una delicada y femenina cartera. Ideal para tu look.
-#   price: 12000
-
-# - pid: p-046
-#   title: Bolso Casual
-#   description: Cómodo bolso para hombres. Material tela canvas 100% de algodón. Flexible y muy práctico.
-#   price: 17000
-
-# - pid: p-043
-#   title: Cartera Clutch Sobre
-#   description: Elegante y delicada cartera tipo clutch con aplicación de tachas en sus bordes.
-#   price: 40000
-
-
-
-# - pid: p-041
-#   title: Bolso masculino
-#   description: 
-#   price: 24000
-
-
-
-
-
-
+- pid: p-046
+  title: Bolso Casual Muzee
+  description: Cómodo bolso para hombres. Material tela canvas 100% de algodón. Flexible y muy práctico.
+  price: 17000
