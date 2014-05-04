@@ -79,7 +79,7 @@ header { background:#4fcdc4; padding:18px 0 12px; margin:0 0 30px; border-bottom
     figure { background:#fff; border-radius:3px; border:1px solid #ddd; overflow:hidden; }
   }
   figure { margin-bottom:30px; }
-  figcaption { background:#fff; border:1px solid #ddd; border-radius:3px; padding:24px 18px;
+  figcaption { background:#fff; border:1px solid #ddd; border-radius:3px; padding:24px 18px; margin-bottom:30px;
     .product--item__title { font-family:'Open Sans', 'sans-serif'; font-size:18px; margin:0; text-align:center; }
     .product--item__price { font-family:'Open Sans', 'sans-serif'; margin:18px; font-size:24px; text-align:center; position:relative; 
       &:before,
@@ -106,7 +106,21 @@ header { background:#4fcdc4; padding:18px 0 12px; margin:0 0 30px; border-bottom
   .img-thumbnail { border-radius:3px; }
 }
 
-.disqus { margin-top:30px; background:#fff; padding:12px 12px 0; border:1px solid #ddd; border-radius:3px; }
+.blog--post { background:#fff; padding:30px; margin-bottom:30px; border:1px solid #eee; border-radius:3px;
+  .blog--post--header { margin-bottom:30px;
+    h1 { margin:0; font-size:30px; }
+  }
+}
+
+.blog--posts { background:#fff; padding:30px; margin-bottom:30px; border:1px solid #eee; border-radius:3px; 
+  &:extend(.list-inline);
+
+  li { margin:21px 0; }
+  .blog--posts--title { font-size:21px; }
+}
+
+
+.disqus { background:#fff; padding:12px 12px 0; border:1px solid #ddd; border-radius:3px; }
 
 .bank-accounts { margin-top:30px; 
   h3 { margin:0 0 6px; font-size:18px; }
