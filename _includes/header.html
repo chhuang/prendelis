@@ -1,17 +1,16 @@
 <header>
   <div class="container">
     <a href="{{ site.baseurl }}/" class="logo">Prendelis</a>
-
     <ul>
       <li>
         <a href="/">Home</a>    
       </li>
 
-      <li>
+      <li {% if page.body_class == 'tienda' %}class="current"{% endif %}>
         <a href="/">Productos</a>    
       </li>
 
-      <li>
+      <li {% if page.body_class == 'blog' %}class="current"{% endif %}>
         <a href="/blog.html">Blog</a>    
       </li>
     </ul>
