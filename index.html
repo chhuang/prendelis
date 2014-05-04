@@ -1,24 +1,22 @@
 ---
 layout: default
-title: Home
-product-src: /assets/dist/img/products
 ---
 
 <section class="products--list">
   <div class="container">
     {% for product in site.data.products %}
-    <div class="product--item"> 
-      <figure>
-        <a href="{{ site.baseurl }}/p/{{ product.pid }}.html">
-          <img src="{{ site.baseurl }}{{ page.product-src }}/covers/{{ product.pid }}.jpg" alt="{{ product.title }}" />
-        </a>
-      </figure>
+      <div class="product--item"> 
+        <figure>
+          <a href="/productos/{{ product.pid }}.html">
+            <img src="assets/images/products/{{ product.pid }}/cover.jpg" alt="{{ product.title }}" />
+          </a>
+        </figure>
 
-      <figcaption>
-        <a href="{{ site.baseurl }}/p/{{ product.pid }}.html" class="product--item__title">{{ product.title }}</a>
-        <span class="product--item__price">${{ product.price }}</span>
-      </figcaption>
-    </div>
+        <figcaption>
+          <a href="/productos/{{ product.pid }}.html" class="product--item__title">{{ product.title }}</a>
+          <span class="product--item__price">${{ product.price }}</span>
+        </figcaption>
+      </div>
     {% endfor %}
   </div>
 </section>

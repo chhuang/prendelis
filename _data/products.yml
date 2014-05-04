@@ -1,114 +1,91 @@
 - pid: p-031
   title: Cartera DHH Retro
-  description: 
   price: 30000
 
 - pid: p-036
   title: Cartera Clioborn Vintage 100% de Cuero
-  description: Amplia y cómoda cartera Clioborn. Muy elegante, confeccionada en cuero genuino. En su exterior cuenta con aplicaciones de correas decorativas en cuero. Incluye dos asas para llevar de la mano, más una correa removible y ajustable para el hombro.
   price: 62000
 
 - pid: p-032
   title: Bolso Sport DHH Rivet
-  description: Lindo y cómodo bolso tela canvas 100% de algodón. Flexible y muy práctico, ya que cuenta con una correa removible y ajustable para el hombro más dos asas con aplicación de cuero PU para llevarlo de la mano. Para extender su durabilidad tiene cuatro "patitas" en su base a modo de protección. En el exterior tiene dos bolsillos con remaches más uno con cierre y en el interior cuenta con bolsillo para el celular y documentos junto a un tercero con cierre.
   price: 20000
 
 - pid: p-045
   title: Cartera Pistar modelo Maletín
-  description: Cómoda y delicada cartera Pistar. Cuenta con bolsillos externos e internos.
   price: 15000
 
 - pid: p-033
   title: Cartera Leshaer
-  description: 
   price: 20000
 
 - pid: p-034
   title: Cartera Axixi
-  description: 
   price: 15000
 
 - pid: p-047
   title: Elegante Clutch XM 100% de Cuero
-  description: 
   price: 32000
 
 - pid: p-040
   title: Bolso Zefer
-  description: Amplio y cómodo bolso para hombre. 
   price: 24000
 
 - pid: p-053 
   title: Bolso Bostanten 100% de Cuero
-  description: 
   price: 50000
 
 - pid: p-039
   title: Bolso Feger
-  description: 
   price: 24000
 
 - pid: p-050 
   title: Cartera Sobre Cattura
-  description: Elegante cartera tipo clutch con delicados detalles. Muy cómoda para llevar tus artículos pequeños y necesarios para toda mujer.
   price: 23000
 
 - pid: p-037
   title: Cartera Binnitu
-  description: Linda y cómoda cartera material cuero PU.  
   price: 24000
 
 - pid: p-044
   title: Clutch Rinka Doll Multicolor
-  description: 
   price: 9900
 
 - pid: p-042
   title: Cartera La Festin
-  description: 
   price: 42000
 
 - pid: p-051
   title: Cartera estilo Cambridge Satchel
-  description: Línda y cómoda cartera Moborn. Muy cómoda para llevar de la mano u hombros ya que cuenta con una correa removible.
   price: 9000
 
 - pid: p-038
   title: Cartera Oppo Bi-Color
-  description: Linda y cómoda cartera cuero PU. Muy práctica ya que cuenta con una correa removible y ajustable para el hombro más dos asas para llevarlo de la mano. Para extender su durabilidad tiene cuatro "patitas" en su base a modo de protección. En el interior cuenta con bolsillo para el celular y documentos junto a un tercero con cierre.
   price: 35000
 
 - pid: p-052 
   title: Cartera de mano Latue Seed
-  description: Cómoda y elegante cartera de mano estilo clutch. Especial para complementar tu look en ocasiones especiales en que sólo necesitas llevar tus artículos personales.
   price: 17000
 
 - pid: p-043
   title: Cartera Clutch Sobre
-  description: Elegante y delicada cartera tipo clutch con aplicación de tachas en sus bordes.
   price: 12000
 
 - pid: p-048
   title: Cartera con tachas
-  description: Amplia cartera modelo sobre con aplicaciones de tachas que hacen de ella una delicada y femenina cartera. Ideal para tu look.
   price: 12000
 
 - pid: p-049
   title: Cartera Clutch Sobre
-  description: 
   price: 7500
 
 - pid: p-035
   title: Cartera Hoolady
-  description: Elegante cartera Hoolady. Especial para complementar tu look casual y/o formal. Amplia y cómoda ya que cuenta con dos asas con aplicación de cadenas para llevar de la mano, más una correa removible y ajustable para el hombro.   En su interior incluye bolsillos para guardar de manera segura tus documentos y artículos más pequeños y así acceder más fácil y rápido a ellos.
   price: 24000
 
 - pid: p-041
   title: Bolso Faunce 
-  description: 
   price: 24000
 
 - pid: p-046
   title: Bolso Casual Muzee
-  description: Cómodo bolso para hombres. Material tela canvas 100% de algodón. Flexible y muy práctico.
   price: 17000
