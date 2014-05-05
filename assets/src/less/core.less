@@ -92,6 +92,15 @@ header { background:#4fcdc4; padding:18px 0 12px; margin:0 0 30px; border-bottom
       &:after { left:-18px; }
       &:before { right:-18px; }
     }
+    
+    .product--item__discount { margin-top:18px;
+      td, th { text-align:center; }
+      td { font-size:18px; font-family:'Open Sans', 'sans-serif'; }
+      .product--item__discount__before { text-decoration:line-through; color:#aaa; }
+      .product--item__discount__percentage { color:@brand-danger; } 
+      .product--item__discount__after { color:@brand-success; } 
+    }
+
     .product--item__description { font-size:13px; margin-top:12px; line-height:1.6; color:#888; }
     .product--item__details { .list-unstyled; margin:24px 18px 18px; font-size:13px;
       li { .clearfix; padding:6px 0;

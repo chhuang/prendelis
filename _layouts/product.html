@@ -12,9 +12,26 @@ body_class:         tienda
         <figcaption>
           <h3 class="product--item__title">{{ page.title }}</h3>
           
+          {% unless page.category == 'male' %}
+          <table class="table product--item__discount table-bordered">
+            <tr>
+              <th>Antes</th>
+              <th>Descuento</th>
+              <th>Tú pagas</th>
+            </tr>
+            <tr>
+              <td class="product--item__discount__before">${{ page.price }}</td>
+              <td class="product--item__discount__percentage">50%</td>
+              <td class="product--item__discount__after">${{ page.price | divided_by: 2 }}</td>
+            </tr>
+          </table>
+          {% endunless %}
+          
+          {% if page.category == 'male' %}
           <div class="product--item__price">
-            ${{ page.price }}
+            ${{ page.price }} 
           </div>
+          {% endif %}
 
           {% unless page.description == "" or page.description == nil %}
           <div class="product--item__description">
@@ -75,7 +92,7 @@ body_class:         tienda
           </ul>
               
           {% if page.price >= 20000 %}
-            <div class="alert alert-success text-center" data-toggle="tooltip" title="Envío gratis para todo Chile" style="margin-bottom:0;">
+            <div class="alert alert-success text-center hide" data-toggle="tooltip" title="Envío gratis para todo Chile" style="margin-bottom:0;">
               Este producto no tiene costo de envío!
             </div>
           {% endif %}
