@@ -23,59 +23,30 @@ header { background:#4fcdc4; padding:18px 0 12px; margin:0 0 30px; border-bottom
 .btn-lg { border-radius:3px; }
 
 .products--list {
-  .product--item { background:#fff; border:1px solid #ddd; overflow:hidden; border-radius:3px; float:left; margin-bottom:2%; margin-right:2%; width:32%; 
+  .product--item { background:#fff; border:1px solid #ddd; overflow:hidden; border-radius:3px; margin-bottom:30px;
 
     figure {
-      img { max-width:100%; }
+      img { max-width:100%; margin:0 auto; }
     }
     figcaption { padding:18px 12px 12px; 
-      .product--item__title { font-family:'Open Sans', 'sans-serif'; margin-bottom:3px; display:inline-block; }
+      .product--item__title { font-family:'Open Sans', 'sans-serif'; margin-bottom:3px; display:inline-block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:100%; }
       .product--item__price { font-family:'Open Sans', 'sans-serif'; display:block; color:@brand-primary; }
     }
+  }
 
-    &:nth-child(1),
-    &:nth-child(2),
-    &:nth-child(3) { width:32%; }
-    &:nth-child(3) { margin-right:0; }
+  @media (min-width: @screen-sm-min) { 
+    .product--item { float:left; margin-bottom:2%; margin-right:2%; width:32%; 
+      &:nth-child(7n-6),
+      &:nth-child(7n-5),
+      &:nth-child(7n-4) { width:32%; }
+      &:nth-child(7n-4) { margin-right:0; }
 
-    &:nth-child(4),
-    &:nth-child(5),
-    &:nth-child(6),
-    &:nth-child(7) { width:23.5%; }
-    &:nth-child(7) { margin-right:0; }
-
-    &:nth-child(8),
-    &:nth-child(9),
-    &:nth-child(10) { width:32%; }
-    &:nth-child(10) { margin-right:0; }
-
-    &:nth-child(11),
-    &:nth-child(12),
-    &:nth-child(13),
-    &:nth-child(14) { width:23.5%; }
-    &:nth-child(14) { margin-right:0; }
-
-    &:nth-child(15),
-    &:nth-child(16),
-    &:nth-child(17) { width:32%; }
-    &:nth-child(17) { margin-right:0; }
-
-    &:nth-child(18),
-    &:nth-child(19),
-    &:nth-child(20),
-    &:nth-child(21) { width:23.5%; }
-    &:nth-child(21) { margin-right:0; }
-
-    &:nth-child(22),
-    &:nth-child(23),
-    &:nth-child(24) { width:32%; }
-    &:nth-child(24) { margin-right:0; }
-
-    &:nth-child(25),
-    &:nth-child(26),
-    &:nth-child(27),
-    &:nth-child(28) { width:23.5%; }
-    &:nth-child(28) { margin-right:0; }
+      &:nth-child(7n-3),
+      &:nth-child(7n-2),
+      &:nth-child(7n-1),
+      &:nth-child(7n) { width:23.5%; }
+      &:nth-child(7n) { margin-right:0; }
+    }
   }
 }
 
